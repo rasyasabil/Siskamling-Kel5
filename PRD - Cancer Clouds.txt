@@ -1,0 +1,44 @@
+I. 💡 Project Overview (Gambaran Umum Proyek)
+Tujuan dari proyek ini adalah mengembangkan platform digital (Website Siskamling Online) yang bertujuan untuk meningkatkan efektivitas, transparansi, dan partisipasi aktif warga dalam menjaga keamanan dan ketertiban lingkungan. Masalah utama yang ingin diatasi adalah komunikasi yang lambat dan terfragmentasi dalam pelaporan kejadian, koordinasi jadwal ronda yang manual dan sering tidak terpantau, serta kesulitan warga dalam mengakses kontak darurat pengurus lingkungan secara cepat.
+Tujuan Utama
+•	Menyediakan saluran komunikasi resmi dan cepat bagi warga untuk melaporkan insiden keamanan.
+•	Mengotomatisasi dan mendigitalisasi manajemen jadwal ronda dan petugas keamanan lingkungan.
+•	Menciptakan media interaksi yang terpusat antara warga dan pengurus lingkungan (RT/RW/Linmas) untuk koordinasi keamanan.
+Target Pengguna
+•	Warga: Sebagai pengguna utama untuk pelaporan, melihat jadwal ronda, dan berpartisipasi di forum.
+•	Pengurus RT/RW: Sebagai administrator dan validator laporan, manajer jadwal ronda, dan moderator forum.
+•	Petugas Keamanan/Linmas: Sebagai pelaksana ronda, penerima notifikasi laporan darurat, dan penanggung jawab tindak lanjut laporan.
+Ruang Lingkup & Manfaat
+•	Ruang Lingkup: Pengembangan platform web responsif yang mencakup fitur pelaporan insiden, manajemen jadwal ronda, forum komunikasi warga, dan direktori kontak darurat.
+•	Manfaat Utama: Meningkatkan respons waktu terhadap kejadian, menumbuhkan rasa aman, efisiensi administrasi keamanan lingkungan, dan meningkatkan partisipasi aktif warga dalam Siskamling.
+________________________________________
+II. 🛠️ Skill Requirement (Kebutuhan Keterampilan Teknis)
+Untuk membangun Website Siskamling Online yang handal dan aman, tim pengembangan memerlukan kombinasi keahlian teknis berikut:
+•	Front-End Development: Penguasaan HTML5, CSS3, dan JavaScript (ES6+) dengan framework modern seperti React, Vue.js, atau Angular untuk membangun antarmuka pengguna yang interaktif dan responsif.
+•	UI/UX Design: Keahlian dalam merancang user interface (UI) yang intuitif dan user experience (UX) yang efisien, khususnya untuk formulir pelaporan yang cepat dan mudah diakses, serta navigasi yang jelas.
+•	Deployment & Infrastruktur: Pengalaman dengan layanan cloud (AWS, Google Cloud, atau Azure) dan containerization (Docker) untuk deployment yang efisien, serta pemahaman tentang Continuous Integration/Continuous Deployment (CI/CD).
+•	Integrasi Notifikasi: Kemampuan untuk mengintegrasikan layanan notifikasi real-time seperti WebSockets atau Firebase Cloud Messaging (FCM) untuk pengiriman notifikasi instan kepada petugas keamanan ketika ada laporan darurat baru.
+________________________________________
+III. 🔑 Key Features (Fitur Utama)
+Milestone 1: Core Reporting & Scheduling Engine
+1. Laporan Tamu Asing / Kejadian Mencurigakan
+•	Menyediakan Formulir Pelaporan Cepat dengan kolom wajib (jenis kejadian dan deskripsi singkat) untuk memudahkan warga melaporkan insiden keamanan atau aktivitas mencurigakan.
+•	Kemampuan Geotagging Lokasi yang akurat (deteksi otomatis atau input manual pada peta interaktif) untuk memandu petugas menuju lokasi insiden.
+•	Dukungan untuk Mengunggah Bukti berupa Foto atau Video Singkat (maksimal 3 file) untuk memvalidasi laporan.
+•	Menerapkan siklus Status Laporan yang dapat dipantau oleh pelapor (Pending $\rightarrow$ Diproses $\rightarrow$ Selesai).
+•	Mengaktifkan Notifikasi Real-time instan kepada pengurus lingkungan dan petugas keamanan saat laporan baru masuk.
+2. Jadwal Ronda
+•	Pengurus RT/RW dapat mengelola jadwal melalui Kalender Ronda Interaktif yang menampilkan penetapan Shift Petugas (nama, waktu mulai, waktu selesai).
+•	Mengirimkan Notifikasi dan Pengingat Otomatis (misalnya, 2 jam sebelumnya) kepada petugas yang ditugaskan untuk memastikan akuntabilitas.
+•	Menyimpan Riwayat Ronda yang komprehensif (termasuk data kehadiran) sebagai alat audit dan evaluasi kinerja keamanan lingkungan.
+Milestone 2: Communication, Access & Community Enhancement
+3. Forum Warga untuk Koordinasi
+•	Mendukung Diskusi Terorganisir di mana warga dan pengurus dapat membuat thread dengan tagging topik yang relevan (misalnya, Keamanan, Fasilitas Umum).
+•	Pengurus lingkungan dapat memposting Pengumuman Resmi yang disorot oleh sistem.
+•	Memungkinkan interaksi komunitas melalui Komentar dan Reaksi pada setiap postingan.
+•	Mengimplementasikan fungsi Moderasi yang kuat untuk memastikan konten tetap relevan dan sesuai dengan kebijakan komunitas.
+4. Kontak Darurat
+•	Menampilkan Direktori Kontak Terstruktur yang mencakup Ketua RT, Ketua RW, Koordinator Linmas, dan Posko Keamanan Terdekat.
+•	Menyediakan Tombol Panggilan Cepat (Click-to-Call) untuk perangkat seluler.
+•	Menyertakan Informasi Penting Lainnya seperti link atau nomor telepon darurat publik (Polisi, Pemadam Kebakaran, dll.).
+
