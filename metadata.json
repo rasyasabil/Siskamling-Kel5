@@ -1,0 +1,9 @@
+{
+  "name": "Siskamling Online",
+  "description": "A digital platform for neighborhood security, enabling incident reporting, patrol scheduling, and community communication.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ]
+}
